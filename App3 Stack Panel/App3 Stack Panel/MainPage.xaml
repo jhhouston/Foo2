@@ -30,7 +30,7 @@
         <!--Complex Stack Panel-->
         <!--Stack Panel 1-->
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-            <Rectangle Width="300" Height="200" Fill="Bisque"/>
+            <Rectangle Width="200" Height="200" Fill="Bisque"/>
            
             <!--Nested Stack Panel A-->            
             <StackPanel Orientation="Vertical">
