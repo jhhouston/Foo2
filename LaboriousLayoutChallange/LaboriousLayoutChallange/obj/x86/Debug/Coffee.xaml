@@ -1,0 +1,110 @@
+﻿<Page
+    x:Class="LaboriousLayoutChallange.Coffee"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LaboriousLayoutChallange"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#3C1F19">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="66*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--________________Grid row 0______________________-->
+        <StackPanel Grid.Row="0">
+            <Image Source="Assets/white-logo.png"  Margin="20,40,0,0"  HorizontalAlignment="Left" Height="200" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <RelativePanel>
+        <!--__________________Roast Button ____________________-->
+               <Button x:ConnectionId='3' Name="Roast_Button"
+                Margin="200,50,0,20"
+                Height="40"
+                Width="100"
+                Grid.Row="3"
+                Grid.Column="1"
+                Foreground="White"
+                Content="Roast"
+                >
+
+                    <Button.Flyout>
+                        <MenuFlyout Placement="Bottom">
+                            <MenuFlyoutItem x:ConnectionId='11' Text="None"                    />
+                            <MenuFlyoutItem x:ConnectionId='12' Text="Dark"                    />
+                            <MenuFlyoutItem x:ConnectionId='13' Text="Medium"                    />                           
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+
+        <!--__________________Sweetener Button ____________________-->
+                <Button x:ConnectionId='4' Name="Sweetneer_Button"
+               RelativePanel.RightOf="Roast_Button"                     
+                Margin="20,50,0,20"        
+                Height="40"
+                Width="100"
+                Grid.Row="3"
+                Grid.Column="1"
+                Foreground="White"
+                Content="Sweetener"
+               >
+
+                    <Button.Flyout>
+                        <MenuFlyout Placement="Bottom">
+                            <MenuFlyoutItem x:ConnectionId='9' Text="None"                        />
+                            <MenuFlyoutItem x:ConnectionId='10' Text="Sugar"                        />                            
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+
+        <!--__________________Cream Button ____________________-->
+                <Button x:ConnectionId='5' Name="Cream_Button"
+               RelativePanel.RightOf="Sweetneer_Button"                     
+                Margin="20,50,0,20"        
+                Height="40"
+                Width="100"
+                Grid.Row="3"
+                Grid.Column="1"
+                Foreground="White"
+                Content="Cream"
+                >
+
+                    <Button.Flyout>
+                        <MenuFlyout Placement="Bottom">
+                            <MenuFlyoutItem x:ConnectionId='6' Text="None"                    />
+                            <MenuFlyoutItem x:ConnectionId='7' Text="2% Milk"                    />
+                            <MenuFlyoutItem x:ConnectionId='8' Text="Whole Milk"                    />
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+                
+            </RelativePanel>            
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <TextBlock
+                FontSize="18"
+                Margin="20,30,0,0"
+                Text="Coffee :"
+                Foreground="White"></TextBlock>
+            
+            <!--Give this text box a name so it can be accessed from the code behind-->
+            <TextBlock x:ConnectionId='2' Name="ResultTextBlock"
+                       Margin="30,30,0,0"
+                       FontSize="18"
+                       Foreground="White"/>
+        </StackPanel>
+        
+        <!--End of Frame-->
+    </Grid>
+</Page>
+
