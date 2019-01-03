@@ -1,0 +1,15 @@
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\BookImageUpload.exe.config
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\BookImageUpload.exe
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\BookImageUpload.pdb
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.csprojAssemblyReference.cache
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.Form1.resources
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.Properties.Resources.resources
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.csproj.GenerateResource.cache
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.csproj.CoreCompileInputs.cache
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.exe
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.pdb
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\EntityFramework.dll
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\EntityFramework.xml
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jhhouston\source\repos\BookImageUpload\BookImageUpload\obj\Debug\BookImageUpload.csproj.CopyComplete
